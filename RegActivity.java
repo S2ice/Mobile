@@ -257,8 +257,8 @@ public class RegActivity extends AppCompatActivity {
 
         FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
         String currentUserId = firebaseAuth.getCurrentUser().getUid();
-        String photoUrl = "https://firebasestorage.googleapis.com/v0/b/planning-meet.appspot.com/o/BasicPhoto%2Fmaster.jpg?alt=media&token=269aea2e-24ec-4ca0-b457-8b68d94245a7";
-        String photoback = "https://firebasestorage.googleapis.com/v0/b/planning-meet.appspot.com/o/BasicPhoto%2Fsplash.jpg?alt=media&token=13a5cd51-5f80-4876-aa86-062010669b66";
+        String photoUrl = "https://firebasestorage.googleapis.com/v0/b/planning-meet.appspot.com/o/BasicPhoto%2Fmaster.jpg?alt;
+        String photoback = "https://firebasestorage.googleapis.com/v0/b/planning-meet.appspot.com/o/BasicPhoto%2Fsplash.jpg?alt";
 
         User user = new User(email, "My Bio", photoUrl, username, password, photoback);
 
